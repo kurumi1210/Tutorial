@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".JSON">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp">
+
+        <Button
+            android:id="@+id/btnGetName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="get name"/>
+
+        <Button
+            android:id="@+id/btnGetCourse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="get course"/>
+
+        <Button
+            android:id="@+id/btnGetAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="get age"/>
+
+        <Button
+            android:id="@+id/btnGetBooks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Books"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp">
+
+        <Button
+            android:id="@+id/btnGetLibraryId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Library Id"/>
+
+        <Button
+            android:id="@+id/btnGetFriends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Friends"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Your Data Here"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
